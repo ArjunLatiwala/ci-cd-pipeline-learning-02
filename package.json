@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node src/index.js",
-    "test": "./node_modules/.bin/jest --coverage --experimental-vm-modules",
+    "test": "jest --coverage",
     "lint": "eslint src/",
     "build": "echo 'Build complete!'"
   },
